@@ -27,7 +27,7 @@ This will create new Asset to customise
 ![ChangeRenderPipelineAsset](https://user-images.githubusercontent.com/14833895/187855965-db67110e-3a4f-4caa-a2b9-65098c2c36d5.png)
 
 ## Create/Copy the UberPost shader
-By making changes to the [UberPost shader with minor tweaks](https://github.com/Chippalrus/Unity3D-Overlay-Testing/blob/master/Universal%20Render%20Pipeline%20UberPost/Assets/_HoloTest/Shaders/AlphaUberPost.shader) so that it allows alpha
+By making changes to the [UberPost shader with minor tweaks](https://github.com/Chippalrus/UnityTransparentWindows/blob/master/Universal%20Render%20Pipeline%20UberPost/Assets/_HoloTest/Shaders/AlphaUberPost.shader) so that it allows alpha
 Credits to [robrab2000-aa on the Unity forums](https://forum.unity.com/threads/transparent-rendertexture-with-postprocessing.1265873/)
 ```
 half alpha = SAMPLE_TEXTURE2D_X(_SourceTex, sampler_LinearClamp, uvDistorted).w;

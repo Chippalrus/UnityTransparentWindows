@@ -1,5 +1,5 @@
 # Unity Transparent Window with PostProcessing
-Documenting OBS Game Capture using Unity as an Overlay with Post-Processing and Semi-Transparent textures. For Out of Box test results, I ramped up and exaggerated the Post-Processing for testing purposes. A possible solution for URP is to [change its UberPost PS shader](https://github.com/Chippalrus/Unity3D-Overlay-Testing/blob/master/Unity_UberPostAlpha.md) in the Renderer Data to allow alpha.
+Documenting OBS Game Capture using Unity as an Overlay with Post-Processing and Semi-Transparent textures. For Out of Box test results, I ramped up and exaggerated the Post-Processing for testing purposes. A possible solution for URP is to [change its UberPost PS shader](https://github.com/Chippalrus/UnityTransparentWindows/blob/master/Unity_UberPostAlpha.md) in the Renderer Data to allow alpha.
 
 ## What is known
 - URP Writes 1 to Alpha when using Post-Processing and HDR (Disabling them retains the alpha)
@@ -13,8 +13,8 @@ Documenting OBS Game Capture using Unity as an Overlay with Post-Processing and 
 - Disable HDR (URP Only)
 
 # Testing Results
-- [Out-Of-Box Notes](https://github.com/Chippalrus/Unity3D-Overlay-Testing/blob/master/Unity_OutOfBox_Notes.md) (Built-In has the best results without ShaderGraph)
-- [Changing the URP UberPost Shader](https://github.com/Chippalrus/Unity3D-Overlay-Testing/blob/master/Unity_UberPostAlpha.md) (Possible Solution for URP)
+- [Out-Of-Box Notes](https://github.com/Chippalrus/UnityTransparentWindows/blob/master/Unity_OutOfBox_Notes.md) (Built-In has the best results without ShaderGraph)
+- [Changing the URP UberPost Shader](https://github.com/Chippalrus/UnityTransparentWindows/blob/master/Unity_UberPostAlpha.md) (Possible Solution for URP)
 
 # Project transparency used from
 - [pheonise's](https://github.com/pheonise) [Unity3D-Desktop-Overlay](https://github.com/pheonise/Unity3D-Desktop-Overlay)
