@@ -33,6 +33,7 @@ Credits to [robrab2000-aa on the Unity forums](https://forum.unity.com/threads/t
 half alpha = SAMPLE_TEXTURE2D_X(_SourceTex, sampler_LinearClamp, uvDistorted).w;
         return half4(color, alpha);
 ```
+In 2022 Unity builds replace _SourceTex with _BlitTexture for the code above.
 
 ## Expose Shader List in Inespector
 Add [tomkail's ExtendedScriptableObjectDrawer Script](https://gist.github.com/tomkail/ba4136e6aa990f4dc94e0d39ec6a058c) to the project. This will expose the shader list in the Renderer
