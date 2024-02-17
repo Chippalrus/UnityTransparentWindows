@@ -1,5 +1,5 @@
 # Unity Transparent Window with PostProcessing
-Documenting OBS Game Capture using Unity as an Overlay with Post-Processing and Semi-Transparent textures. For Out of Box test results, I ramped up and exaggerated the Post-Processing for testing purposes. A possible solution for URP is to [change its UberPost PS shader](https://github.com/Chippalrus/UnityTransparentWindows/blob/master/Unity_UberPostAlpha.md) in the Renderer Data to allow alpha.
+Documenting OBS Game Capture using Unity as an Overlay with Post-Processing and Semi-Transparent textures. For Out of Box test results, I ramped up and exaggerated the Post-Processing for testing purposes. A possible solution for URP is to [change its UberPost PS shader](https://github.com/Chippalrus/UnityTransparentWindows/blob/master/Unity_UberPostAlpha.md) in the Renderer Data to allow alpha. There are better solutions like output camera source directly, this is purely for development running client with Transparent Window and also allowing Post-Processing while also still capturable via OBS.
 
 ## What is known
 - URP Writes 1 to Alpha when using Post-Processing and HDR (Disabling them retains the alpha)
